@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+:root{
+    --nav-bg-color: rgb(0,0,0);
+    --bg-color: whitesmoke;
+    --nav-font: 'Roboto', sans-serif;
+    --nav-font-color: whitesmoke;
+    --body-font: 'Poppins', sans-serif;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;  
+}
+
+nav{
+    height: 10vh;
+}
+
+.navbar{
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    height: 10vh;
+    background-color: var(--nav-bg-color);
+    color: var(--nav-font-color);    
+    font-family: var(--nav-font);
+}
+
+li{
+    display: flex;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+    align-items: center;
+}
+
+main{
+    height: 90vh;
+    background-color: var(--bg-color);
+    color: black;
+    font-family: var(--body-font)
+}
+
+.info{
+    display: grid;
+    place-items: center;
+    height: 60vh;
+}
+
+
+.name{
+    font-size: 5rem;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    width: max-content;
+}
+
+.dev{
+    font-size: 4rem;
+    height: 10vh;
+    position: relative;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin-left: 1rem;
+    width: max-content;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 3s;
+}
+
+.show{
+    opacity: 1;
+}
