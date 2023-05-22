@@ -10,7 +10,8 @@
 }
 
 
-*{
+*{ 
+    
     padding: 0;
     margin: 0;  
 }
@@ -37,7 +38,7 @@ li{
 }
 
 main{
-    height: 90vh;
+    height: 100vh;
     background-color: var(--bg-color);
     color: black;
     font-family: var(--body-font)
@@ -77,4 +78,8 @@ main{
 
 .show{
     opacity: 1;
+}
+
+#skills{
+    padding-top: 2rem;
 }
