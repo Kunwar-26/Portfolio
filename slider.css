@@ -7,4 +7,17 @@
 .slide{
     position: absolute;
     inset: 0;
+    opacity: 0;
+}
+
+.slide > img{
+    display: block;
+    width: 100%;
+    height: 100;
+    object-fit: cover;
+}
+
+.slide[data-actve]{
+    opacity: 1;
+
 }
